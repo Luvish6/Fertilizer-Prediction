@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDES and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Machine Learning & Data
+# Ignore large datasets if they are not meant to be tracked
+# (User can uncomment these if they have large CSVs/Images they want to exclude)
+# data/*.csv
+# data/*.jpg
+# data/*.png
+*.pkl
+*.h5
+*.pth
+*.pt
+*.onnx
+model_checkpoints/
+runs/
+wandb/
+
+# Logs
+*.log
+logs/
